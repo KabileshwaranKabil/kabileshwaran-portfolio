@@ -1,0 +1,25 @@
+Placeholders for images used by the scaffold.
+
+Please add the following images to replace placeholders:
+- headshot-placeholder.png  (your headshot, recommended 600x600 px)
+ - headshot-placeholder.png  (your headshot, recommended 600x600 px)
+- project-placeholder.png   (generic project screenshot)
+ - NOTE: The site now uses `resources/profile-me.png` for the hero headshot and `resources/profile-logo.svg` for the header logo. Replace those files in the `resources/` folder with your real images.
+ - NOTE: The site now uses `resources/profile-me.png` for the hero headshot and `resources/profile-logo.svg` for the header logo. Replace those files in the `resources/` folder with your real images.
+ - Project images have been created as local SVG placeholders under `assets/images/` (replace with real screenshots if available):
+	 - `assets/images/snakegame-screenshot1.svg`
+	 - `assets/images/shannon-output.svg`
+	 - `assets/images/cpp-fundamentals.svg`
+	 - `assets/images/profile-repo.svg`
+	 - `assets/images/python-codes.svg`
+	 - `assets/images/runlengthencoding.svg`
+	 - `assets/images/first-contributions.svg`
+	 - `assets/images/python-projects.svg`
+	 - `assets/images/cpp-projects.svg`
+- cpp-fundamentals.png
+- snake-game.png
+- python-codes.png
+- cpp-projects.png
+- profile-repo.png
+
+Add a PDF `resume.pdf` in project root if you want the Resume download button to work.

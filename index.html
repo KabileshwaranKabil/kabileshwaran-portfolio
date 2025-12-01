@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>M. Kabileshwaran — Portfolio</title>
+  <meta name="description" content="M. Kabileshwaran — Computer Science student. Projects, notes, and contact." />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <img src="resources/profile.png" alt="Profile" class="logo-img" />
+      </a>
+      <nav class="nav" aria-label="Main Navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#notes">Notes</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+      <!-- header social icons removed (moved to Contact section) -->
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1 id="greeting">Hi, I'm <span class="name">M. Kabileshwaran</span></h1>
+          <p class="typewriter" id="typewriter">CS Student | Explorer of Ideas | Problem Solver</p>
+          <p class="lead">I build projects, write notes, and explore algorithms.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+            <a class="btn" href="resources/Resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="resources/profile-me.png" alt="Headshot of M. Kabileshwaran" class="headshot" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I’m a computer science student at Trincomalee Campus, Eastern University Sri Lanka, focused on mastering how computers actually work — from low-level architecture and memory to clean, efficient software design.</p>
+        <p>I learn by building real projects, breaking things, and understanding systems end-to-end. My goal is to become an engineer who can move confidently across the stack and deliver solutions that are reliable, clear, and technically solid.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h3>Programming</h3>
+          <ul>
+            <li> C++ <span class="skill-bar" data-level="85"></span></li>
+            <li> Python <span class="skill-bar" data-level="75"></span></li>
+            <li> Java <span class="skill-bar" data-level="60"></span></li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Web</h3>
+          <ul>
+            <li> HTML/CSS <span class="skill-bar" data-level="80"></span></li>
+            <li> JavaScript <span class="skill-bar" data-level="70"></span></li>
+            <li> Django (basic) <span class="skill-bar" data-level="55"></span></li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Tools</h3>
+          <ul>
+            <li> Git <span class="skill-bar" data-level="70"></span></li>
+            <li> VSCode <span class="skill-bar" data-level="80"></span></li>
+            <li> Linux <span class="skill-bar" data-level="60"></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Projects</h2>
+      <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="notes" class="notes container">
+      <h2>Notes & Resources</h2>
+      <p>Organized study notes and guides pulled from Google Drive. Click an item to open it in Drive.</p>
+      <div class="notes-list">
+        <!-- Static fallback (will be replaced by js/notes.js when JS loads) -->
+        <div class="notes-grid">
+          <article class="note-card">
+            <h3>OS Chapter 01 - Handwritten Notes</h3>
+            <p>Handwritten notes (PDF) — Operating Systems Chapter 1.</p>
+            <div class="note-actions">
+              <a class="btn" href="https://drive.google.com/drive/folders/1XE_sAwasCDZEfohT5fKEPbxsiOuxmHG2?usp=drive_link" target="_blank" rel="noopener">Open in Drive</a>
+              <a class="btn secondary" href="https://drive.google.com/drive/folders/1XE_sAwasCDZEfohT5fKEPbxsiOuxmHG2?usp=drive_link" target="_blank" rel="noopener">Download</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Interested in collaborating? Connect via my email or social links below.</p>
+      <div class="social">
+          <a href="https://github.com/KabileshwaranKabil" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icons/github.png" alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/m-kabileshwaran-4018a5378" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icons/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://www.youtube.com/@CS-Unfolded186" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icons/youtube.png" alt="YouTube" />
+          </a>
+          <a href="https://leetcode.com/u/Kabileshwaran1896/" aria-label="LeetCode" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icons/leetcode.png" alt="LeetCode" />
+          </a>
+          <a href="https://dev.to/kabileshwarankabil" aria-label="Dev.to" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icons/dev.png" alt="Dev.to" />
+          </a>
+          <a href="https://medium.com/@kabileshwaran1896" aria-label="Medium" target="_blank" rel="noopener noreferrer">
+            <img src="resources/icons/medium.png" alt="Medium" />
+          </a>
+        </div>
+        <p style="margin-top:0.6rem;color:var(--muted)">Email: <a href="mailto:kabileshwaran1896@gmail.com">kabileshwaran1896@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>© 2025 Kabileshwaran</strong>
+        <p class="muted">Driven by curiosity. Built with intention. Improving every day.</p>
+      </div>
+
+      <div class="footer-actions">
+        <p>Want to collaborate?</p>
+        <div class="footer-credits">Made with <span class="heart">♥</span> &nbsp;• &nbsp;<span class="tech">HTML • CSS • JS</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ux.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/notes.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

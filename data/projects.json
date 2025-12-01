@@ -1,0 +1,20 @@
+﻿[
+  {
+    "title": "snake-game-using-sfml",
+    "description": "Classic Snake game implemented in C++ using SFML. Includes gameplay, scoring, pause/resume, and persistent high score.",
+    "tech": ["C++", "SFML", "GameDev"],
+    "language": "C++",
+    "repo": "https://github.com/KabileshwaranKabil/snake-game-using-sfml",
+    "demo": "",
+    "images": [
+      "assets/images/snakegame-screenshot1.png",
+      "assets/images/snakegame-screenshot2.png"
+    ],
+    "social_preview": "projects/project1.png",
+    "image": "assets/images/snakegame-screenshot2.png",
+    "category": "game",
+    "stars": 0,
+    "readme": "data/readmes/snake-game-using-sfml.md",
+    "default_branch": "master"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "OS Chapter 01 - Handwritten Notes",
+    "description": "Handwritten notes (PDF) — Operating Systems Chapter 1.",
+    "source": "google-drive",
+    "link": "https://drive.google.com/drive/folders/1XE_sAwasCDZEfohT5fKEPbxsiOuxmHG2?usp=drive_link",
+    "file": "OS_Chapter_01_Handwritten_Notes.pdf"
+  }
+  ,
+  {
+    "title": "PHP Notes",
+    "description": "Basic PHP reference notes — variables, arrays, functions, and form handling.",
+    "source": "local+google-drive",
+    "link": "https://drive.google.com/drive/folders/1XE_sAwasCDZEfohT5fKEPbxsiOuxmHG2?usp=drive_link",
+    "file": "php-notes.md"
+  }
+]

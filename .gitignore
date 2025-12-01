@@ -1,0 +1,12 @@
+/.venv
+venv/
+node_modules/
+dist/
+build/
+.DS_Store
+.env
+*.log
+/.vscode/
+__pycache__/
+assets/images/*.db
+.idea/
